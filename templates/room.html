@@ -67,9 +67,8 @@
 
 
       var room = window.location.pathname;
-      console.log(room)
+
       let url = "ws://" + window.location.host + "/ws" + room;
-      console.log(url)
   
       const chatSocket = new WebSocket(url);
       
