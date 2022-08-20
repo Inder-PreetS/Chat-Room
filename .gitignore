@@ -1,0 +1,8 @@
+.env
+media
+db.sqlite3
+
+room/__pycache__
+chatroom/__pycache__
+
+chatroom/migrations/__pycache__
